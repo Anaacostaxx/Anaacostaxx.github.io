@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #ECF2FF; */
+  background-color: #FFFBF5;
+}
+
+.dot {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #f0d0ff;
+}
+
+.green {
+  background-color: #a8e6cf;
+}
+
+.orange {
+  background-color: #ffd3b6;
+}
+
+.pink {
+  background-color: #f4acb7;
+}
+
+.blue {
+  background-color: #a1c5ff;
+}
+
+.yellow {
+  background-color: #ffef96;
+}
+
+header{
+  overflow: hidden;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #F2D7D9;
+  border-width: 5px;
+  width: 85%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* td{
+text-align: center;
+} */
+
+h1{
+  font-family: 'Tenor Sans', sans-serif;
+  text-align: right;
+}
+
+
+h3{
+  font-family: 'Public Sans', sans-serif;
+  text-align: center;
+}
+
+.rectangulo {
+  background-color: #D3E8E3;
+
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  height: 120px;
+  z-index: -1;
+  border-radius: 0 25px 25px 0;
+  padding-top: 5px;
+  padding-right:   150px;
+  box-sizing: border-box;
+}
+
+th {
+    position: relative;
+      }
+
+.circle {
+  position: absolute;
+  transform: translateX(-160%) translateY(30%);;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #D7D8EC;
+  z-index: -1;
+  padding-right: -10px;
+  box-sizing: border-box;
+}
+.tPrincipal td{
+  /* border: 1px solid blue; */
+  max-width: 400px;
+  word-wrap: break-word;
+
+}
+table{
+  font-family: 'Public Sans', sans-serif;
+}
+
+.circle_formacion {
+  position: absolute;
+  transform: translateX(-330%) translateY(30%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FFE5B6;
+  z-index: -1;
+  padding-right: -10px;
+  box-sizing: border-box;
+}
+
+.circle_contacto {
+  position: absolute;
+  transform: translateX(-180%) translateY(30%);;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F1B5B4;
+  z-index: -1;
+  padding-right: -10px;
+  box-sizing: border-box;
+}
+
+.circle_pasatiempos {
+  position: absolute;
+  transform: translateX(-200%) translateY(30%);;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #8BCBF2;
+  z-index: -1;
+  padding-right: -10px;
+  box-sizing: border-box;
+}
+
+.circle_joan {
+  position: absolute;
+  transform: translateX(-190%) translateY(30%);;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FED2AA;
+  z-index: -1;
+  padding-right: -10px;
+  box-sizing: border-box;
+}
+footer {
+  display: block;
+  background-color:#D3E8E3;
+}
